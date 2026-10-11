@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Public Posts Explorer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <main class="container">
+    <h1>Public Posts Explorer na nga</h1>
+    <p>Read sample posts retrieved from a public API. New sentence</p>
+    <div class="controls">
+      <button id="loadBtn" type="button">Load Posts</button>
+      <input id="searchInput" type="search" placeholder="Search titles..." aria-label="Search posts by title">
+    </div>
+    <p id="status" role="status" aria-live="polite">Click “Load Posts” to begin.</p>
+    <section id="posts" class="grid" aria-label="API posts"></section>
+  </main>
+</body>
+
+</html>
